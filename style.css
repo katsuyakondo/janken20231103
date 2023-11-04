@@ -1,0 +1,54 @@
+  body {
+      background-image: url(./images/universe.png);
+      background-size: cover;
+      /* 背景画像を画面にフィットさせる */
+      background-position: center;
+      /* 背景画像を中央に配置 */
+      background-repeat: no-repeat;
+      /* 背景画像を繰り返さない */
+
+
+  }
+
+  #container {
+      position: relative;
+      margin: auto;
+      width: 80%;
+      max-width: 700px;
+
+  }
+
+
+
+  #next-canvas {
+      position: absolute;
+      top: 0;
+      left: 400px;
+  }
+
+  #hold-canvas {
+      position: absolute;
+      bottom: 200px;
+      left: 400px;
+      border: 4px solid #ff8c00;
+  }
+
+  #start-btn {
+      position: absolute;
+      left: 400px;
+      bottom: 0;
+      width: 180px;
+      text-align: center;
+      font-size: 16px;
+      color: #FFF;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 4px;
+      background-image: linear-gradient(to top, #ffff00 0%, #ff8c00 100%);
+      transition: .5s;
+      background-size: 200%;
+  }
+
+  
